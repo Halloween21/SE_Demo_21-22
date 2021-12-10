@@ -12,6 +12,6 @@ public class FizzBuzz {
 		else if (number % 5==0 && number % 7 ==0) {
 			return "FizzBuzz";
 		}
-		else return "";
+		else return "";	//leerer String falls nichts gilt
 	}
 }
