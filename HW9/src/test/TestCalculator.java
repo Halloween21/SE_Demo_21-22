@@ -23,6 +23,7 @@ class TestCalculator {
 	@CsvSource(value = {"2,3" , "1,4"})
 	public void Should_add_two_numbers_and_return_result_parameterized(int valueOne, int valueTwo) {
 		 assertEquals(5, calculator.add(valueOne, valueTwo));
+		 
 	}
 	
 	@Test
@@ -38,6 +39,7 @@ class TestCalculator {
 	@Test
 	public void Should_divide_two_numbers_and_return_result() {
 		 assertEquals(1, calculator.divide(1, 1));
+		 
 	}
 	
 	@Test
