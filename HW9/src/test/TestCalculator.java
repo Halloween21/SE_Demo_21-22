@@ -45,5 +45,6 @@ class TestCalculator {
 	@Test
 	public void Should_throw_an_arithmetic_exception_if_denominator_is_zero() {
 		Throwable exception = assertThrows(ArithmeticException.class, () -> calculator.divide(0, 0) );
+		
 	}
 }
